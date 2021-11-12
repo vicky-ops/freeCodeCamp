@@ -1,0 +1,15 @@
+// Use class Syntax to Define a Constructor Function
+// ES6 provides a new syntax to create objects, using the class keyword.Use class Syntax to Define a Constructor Function
+// // ES6 provides a new syntax to create objects, using the class keyword.
+// Use the class keyword and write a constructor to create the Vegetable class.
+
+// The Vegetable class allows you to create a vegetable object with a property name that gets passed to the constructor.
+class Vegetable{
+    constructor(Vegetable){
+        this.name=Vegetable
+    }
+}
+
+
+const carrot=new Vegetable("carrot");
+console.log("carrot.name")
